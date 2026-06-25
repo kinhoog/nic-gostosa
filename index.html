@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#ff77ad" />
+    <meta
+      name="description"
+      content="Um mini site fofo e animado para perguntar para a Nic se pode dar uns beijinhos."
+    />
+    <meta property="og:title" content="beijinhos nic?" />
+    <meta
+      property="og:description"
+      content="oi a gente pode dar uns beijinhos nic?"
+    />
+    <meta property="og:image" content="./assets/icon.jpg" />
+    <meta property="og:type" content="website" />
+    <title>beijinhos nic?</title>
+    <link rel="icon" type="image/jpeg" href="./assets/icon.jpg" />
+    <link rel="apple-touch-icon" href="./assets/icon.jpg" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="ambient" aria-hidden="true">
+      <span class="ambient__item ambient__item--one">♡</span>
+      <span class="ambient__item ambient__item--two">✦</span>
+      <span class="ambient__item ambient__item--three">♡</span>
+      <span class="ambient__item ambient__item--four">✧</span>
+      <span class="ambient__item ambient__item--five">♥</span>
+    </div>
+
+    <main class="page-shell">
+      <section class="proposal-card" aria-labelledby="question">
+        <div class="icon-pill" aria-hidden="true">
+          <img id="siteIcon" src="./assets/icon.jpg" alt="" />
+          <span>💘</span>
+        </div>
+
+        <p class="kicker">nic, responda com carinho</p>
+        <h1 id="question">oi a gente pode dar uns beijinhos nic?</h1>
+
+        <div class="gif-frame">
+          <img
+            class="main-gif"
+            src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemFrODBhNzJ5ajljZGNhMzUwZzVxcXdkdGk2eHd4YnM2eWE1d3k3NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qUIm5wu6LAAog/giphy.gif"
+            alt="um gif fofo para combinar com beijinhos"
+          />
+        </div>
+
+        <div id="buttonZone" class="button-zone">
+          <button id="yesButton" class="love-button yes-button" type="button">
+            sim
+          </button>
+          <button id="noButton" class="love-button no-button" type="button">
+            não
+          </button>
+        </div>
+
+        <p class="tiny-note">escolha com sabedoria</p>
+      </section>
+    </main>
+
+    <div id="celebration" class="celebration" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="celebrationTitle">
+      <div class="celebration__glow" aria-hidden="true"></div>
+      <div id="partyLayer" class="party-layer" aria-hidden="true"></div>
+
+      <section class="celebration-card">
+        <div class="pop-crown" aria-hidden="true">💖 ✨ 🎉</div>
+        <div class="celebration-gif-frame">
+          <img
+            src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWFrY3dtZm9jMTJnZzZnZzdzZjVoOXJkNDBvbWc1OW1pYzlmN3dlNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/oiqxP4fuZkuQIJj9Jp/giphy.gif"
+            alt="gif de comemoração"
+          />
+        </div>
+        <h2 id="celebrationTitle">AEEEEEEEEEEEEEEEEEEEEEEEEE</h2>
+        <p class="celebration-subtitle">agora não tem mais volta</p>
+        <div class="heart-row" aria-hidden="true">
+          <span>♥</span>
+          <span>♡</span>
+          <span>♥</span>
+          <span>♡</span>
+          <span>♥</span>
+        </div>
+      </section>
+    </div>
+
+    <audio id="loveSong" src="./assets/do-do-do.mp3" preload="auto"></audio>
+    <script src="./script.js" defer></script>
+  </body>
+</html>
